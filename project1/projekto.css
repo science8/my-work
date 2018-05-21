@@ -1,0 +1,241 @@
+*,
+*:before,
+*:after { 
+  overflow-wrap: normal;
+  margin:0 auto;
+  box-sizing: border-box;
+  background-repeat:no-repeat;
+}
+
+font-face{
+  src:url(/font/nevis/nevis.ttf);
+}
+
+h1{
+  font-family: nevis;
+  color:#cfcdb4;
+  font-size: 30px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.width{
+  max-width: 960px;
+}
+
+.columns2{
+  width: calc(100%/2);
+}
+
+.columns3{
+   width: calc(100%/3);
+}
+
+.top{ 
+  padding: 50px 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-image: url("images/topdalis.jpg")
+}
+
+.menu{
+  text-align: right;
+}
+
+.topleft{  
+  padding-bottom: 50px;
+  padding-right: 21px;
+}
+
+.topright{  
+  padding-bottom: 50px;
+  padding-left: 21px;
+}
+
+.hire_me_img{  
+  padding: 0px 10px;
+  float: left;
+}
+
+.mid{ 
+  padding: 50px 0;  
+  background-color:#201b0e;
+  border-top: 1px #594522 solid;
+  box-shadow: 0 0 20px black;
+  border-bottom: 1px #594522 solid;
+}
+
+.img9{
+  border-style: solid;
+  color:#3c3218;
+  border-width: 1px;
+  width: 100%;
+  padding: 5px;
+}
+
+.img_padding{
+  padding: 25px 12px 0;
+}
+
+.bot{ 
+  padding: 50px 0;
+  background-color: #2d2413;
+  border-bottom: 1px #594522 solid;
+}
+
+.botleft{
+  padding-right: 15px;
+}
+
+.botmid{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.botright{
+  padding-left: 15px;
+}
+
+.return{
+  font-size:14px;
+  padding-right: 10px;
+  font-family: georgia;
+  color:#ea9f3e;
+}
+
+.footer{ 
+  padding: 50px 0;
+  background-color: #201b0e;
+}
+
+footer p{
+  padding: 0 10px;
+}
+
+p{ 
+  padding: 0px 10px 10px;
+  font-family: 'Georgia';
+  color: #cfcdb4;
+  font-size: 14px;
+}
+
+h2{  
+  text-transform:uppercase;
+  font-family: 'arial';
+  padding: 25px 10px;
+  color: #ea9f3e;
+  font-size: 18px;
+}
+
+h3{ 
+  font-family: 'Georgia';
+  color: #af9671;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+h4{
+  color:#af9671;
+  padding: 0px 10px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.botnormal img{
+  vertical-align:-10px;
+}
+
+.botsmall{
+  padding: 10px 10px;
+}
+
+.botsmall img{
+  padding-right: 10px;
+  vertical-align:-10px;
+}
+
+a{ 
+  text-decoration: none;
+}
+
+li a{
+  padding: 0 10px;
+  font-size:18px;
+  color:#af9671;
+  font-family: arial;
+}
+
+p a{  
+  font-family: georgia;
+  font-size:14px;
+  color:#ea9f3e;
+}
+
+li{
+  list-style: none; 
+  display: inline;
+  align-self: right;
+}
+
+@media all and (max-width: 575px){
+  .web{
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px){
+  .web{
+    width: 50%;
+  }
+}
+/* Menu start*/
+.nav{
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-item{
+  margin: 0 5px;
+  padding: 10px ;
+  margin: 0;
+}
+
+.menu{
+  padding: 0 10px;
+  font-size:18px;
+  color:#af9671;
+  font-family: arial;
+  display: none;
+}
+
+.menuu{
+  width: 25px;
+}
+
+@media all and (max-width: 600px){
+  .nav{
+    display: none;
+    flex-wrap: wrap;
+  }
+
+  .nav.show{
+    display: block;
+  }
+
+  .menu-item{
+    width: 100%;
+  }
+
+  .menu{
+    display: block;
+  }
+}
+/* Menu end*/
